@@ -10,10 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mui/base": "^5.0.0-beta.15",
+    "@mui/system": "^5.14.9",
+    "@shoelace-style/shoelace": "^2.8.0",
+    "clsx": "^2.0.0",
     "preact": "^10.16.0",
     "preact-custom-element": "^4.2.1"
   },
   "devDependencies": {
+    "@emotion/styled": "^11.11.0",
     "@preact/preset-vite": "^2.5.0",
     "postcss": "^8.4.29",
     "tailwindcss": "^3.3.3",
