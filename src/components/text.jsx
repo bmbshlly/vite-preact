@@ -2,7 +2,7 @@ import register from "preact-custom-element";
 import "./taildwind.css";
 
 const Greeting = ({ name = "World" }) => (
-  <p className="text-orange-500">Hello, {name}!</p>
+  <p class="text-orange-500">Hello, {name}!</p>
 );
 
 register(Greeting, "x-greeting", ["name"], { shadow: false });
